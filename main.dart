@@ -80,7 +80,7 @@ class CrachaApp extends StatelessWidget {
                   'Desenvolvedor Mobile Flutter / SENAI',
                   style: TextStyle(
                     color: Colors.white70,
-                    // TODO: Adicione a propriedade para deixar a fonte em itálico (fontStyle)
+                    fontStyle: Fontstyle.italic,// TODO: Adicione a propriedade para deixar a fonte em itálico (fontStyle) ADICIONADO DAVIFL
                   ),
                 ),
                 
@@ -92,7 +92,7 @@ class CrachaApp extends StatelessWidget {
                 // contendo 3 Chips com as habilidades: 'Dart', 'Flutter', 'Git'.
                 // ===============================================================
                 const Row(
-                  // TODO: Adicione a propriedade de alinhamento principal no centro
+                   mainAxisAlignment: MainAxisAlingnment.center   // TODO: Adicione a propriedade de alinhamento principal no centro ADICIONADO DAVIFL
                   children: [
                     Chip(label: Text('Dart')),
                     SizedBox(width: 5),
