@@ -56,7 +56,7 @@ class CrachaApp extends StatelessWidget {
                 // ===============================================================
                 const CircleAvatar(
                   radius: 50,
-                 backgroundImage: NetworkImage('https://github.com/identicons/user.png')  // TODO: Adicione a propriedade backgroundImage usando NetworkImage
+                 backgroundImage: NetworkImage('https://avatars.githubusercontent.com/u/189041452?v=4&size=64')  // TODO: Adicione a propriedade backgroundImage usando NetworkImage
                   // URL de teste: 'https://github.com/identicons/user.png', ADICIONADO DAVIFL
                 ),
                 
