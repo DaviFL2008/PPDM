@@ -99,8 +99,11 @@ class CrachaApp extends StatelessWidget {
                     Chip(label: Text('Dart')),
                     SizedBox(width: 5),
                     // TODO: Adicione o segundo Chip aqui ('Flutter'),
+                    Chip(label : Text('Flutter')),
                     SizedBox(width: 5),
                     // TODO: Adicione o terceiro Chip aqui ('Git'),
+                     Chip(label : Text('Flutter')),
+                     SizedBox(width: 5),
                   ],
                 ),
                 
